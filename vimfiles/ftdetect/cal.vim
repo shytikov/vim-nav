@@ -1,1 +1,4 @@
-au! BufNewFile,BufRead *.txt,*.TXT		set ft=cal
+au BufNewFile,BufRead *.txt
+	\ if getline(1) =~ '^OBJECT' |
+	\   setf cal |
+	\ endif

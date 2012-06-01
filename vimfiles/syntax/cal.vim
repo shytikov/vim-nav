@@ -1,16 +1,14 @@
 " Vim syntax file
-" Language:	Pascal
-" Version: 2.8
-" Last Change:	2004/10/17 17:47:30
-" Maintainer:  Xavier Crégut <xavier.cregut@enseeiht.fr>
-" Previous Maintainer:	Mario Eusebio <bio@dq.fct.unl.pt>
+" Language:     C/AL
+" Version:      0.1
+" Last Change:	2012/06/01 10:10:10
+" Maintainer:   Alexey Shytikov <>
+" Previous Maintainer:	
 
-" Contributors: Tim Chase <tchase@csc.com>,
-"	Stas Grabois <stsi@vtrails.com>,
-"	Mazen NEIFER <mazen.neifer.2001@supaero.fr>,
-"	Klaus Hast <Klaus.Hast@arcor.net>,
-"	Austin Ziegler <austin@halostatue.ca>,
-"	Markus Koenig <markus@stber-koenig.de>
+" Contributors: 
+"	
+"	
+"	
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -370,4 +368,4 @@ endif
 
 let b:current_syntax = "pascal"
 
-" vim: ts=8 sw=2
+" vim: ts=2 sw=2
